@@ -1,6 +1,1 @@
-GOAL: How do different signup cohorts behave over time in terms of churn, revenue, and plan upgrades.
-Questions:
-1.Which signup month has the best retention after 3, 6, 12 months?
-2.How does average revenue per user (ARPU) evolve by cohort?
-3.Do users who start on higher plans churn less?
-Answers:
+Gym Membership Churn & Revenue Cohort Analysis is a data analytics project that uses gym membership data to understand member retention, churn, engagement, and revenue patterns. By applying SQL, cohort analysis, window functions, and customer segmentation, we identify which members are more likely to stay or leave and which customer groups generate the most value. The goal is to turn raw gym data into actionable insights that can help gym businesses improve member retention and make better revenue and marketing decisions.
