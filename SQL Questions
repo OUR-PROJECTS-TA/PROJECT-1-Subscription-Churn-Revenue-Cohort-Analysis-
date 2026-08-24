@@ -1,0 +1,23 @@
+Questions....
+BASIC----------------------------------------------------
+B1. How many total users do we have?
+B2. How many subscriptions are churned vs. still active?
+B3. What is the total revenue collected per currency?
+B4. Which country has the most users?
+B5. How many subscriptions does each plan have?
+B6. List the 10 most recent cancellations, along with the reason.
+B7. How many times was each class type taken?
+INTERMEDIATE-----------------------------------------------
+I1. What percent of all memberships have ended (churned)?
+I2. For each signup channel, how many members churned vs. stayed?
+I3. What is the average number of days between start_date and end_date for cancelled memberships?
+I4. Same as above, but broken down by plan type.
+I5. How many check-ins did each member have in total? Label anyone under 10 check-ins as "low engagement."
+I6. What is total revenue collected per month?
+I7. List every cancelled membership along with how many check-ins that member had — join memberships to a check-in count.
+ADVANCED----------------------------------------------------
+A1. Rank every member by their total lifetime revenue (highest spender = rank 1).
+A2. Same idea, but ranked separately within each city (top spender per city gets rank 1 in that city).
+A3. For each member, show every payment plus a running (cumulative) total of what they've paid so far.
+A4. Group members by the month they signed up (their "cohort"), and count how many are still active today.
+A5. For each city, compare every member's revenue to that city's average revenue.
