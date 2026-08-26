@@ -1,0 +1,45 @@
+Business Insights. Subscription Churn & Revenue Cohort Analysis
+
+A SQL-driven analysis of a subscription-based platforms user, subscription and payment data. We ran the analysis to uncover why customers churn and where revenue is concentrated than simply counting churn.
+Dataset: 120 users · 190 subscriptions · 2,180 payment transactions Tools: MySQL (joins, CASE, GROUP BY, window functions, CTEs)
+
+ Key Findings
+1. Overall churn is high. 60%
+Out of 190 subscriptions in the dataset 114 have churned and only 76 remain active. This is above the 20–30% annual churn that is generally considered healthy for subscription businesses indicating a retention problem rather than an acquisition problem.
+2. Acquisition channel quality varies by up to 23 points
+Channel Churn Rate
+Email Campaign 43.5% (best)
+Affiliate 57.1%
+Referral 60.9%
+Social Media 61.5%
+Organic Search 63.0%
+Paid Search 63.9%
+Direct 66.7% (worst)
+
+Users acquired through email campaigns retain better than any other channel. Direct signups. The lowest-intent least-nurtured acquisition path. Churn the most.
+Business implication: acquisition spend and lifecycle nurturing should be reweighted toward channels that bring in higher-retention users, not higher volume.
+
+3. Mid-tier plans retain longer than premium tiers
+Plan Avg. Days Before Churn
+Standard 141.8
+Basic 111.7
+Enterprise 107.8
+Pro 99.6
+Premium 98.5
+Standard-plan subscribers stay over 40 days longer on average than Premium subscribers. This is a counter-intuitive SaaS pattern. Higher-tier customers often churn faster if onboarding does not quickly prove the extra value they are paying for.
+Business implication: the Premium/Pro onboarding experience deserves a look. Higher price should not correlate with lower loyalty.
+
+4. Revenue is concentrated not spread
+The top 10 customers by lifetime spend contributed between $2,150 and $4,270 each. The single highest-value customer alone is more than 4% of total platform revenue.
+Mexico and Spain together generate one-third of total revenue despite representing under 20% of the user base.
+Business implication: losing a handful of top accounts or a single high-revenue market can have an outsized impact. High-LTV customers should be proactively. Flagged for retention outreach before they show cancellation signals. Not treated the same as an average user.
+
+5. Revenue has grown consistently over time
+Monthly revenue grew from about $39 in January 2023 to a peak above $3,790 in 2026 showing steady platform growth despite the high churn rate. This means user and payment volume is currently outpacing churn but this is a fragile position if churn is not addressed.
+
+Recommendations
+
+Shift acquisition spend toward email-driven campaigns. They retain 23 points better than Direct traffic.
+Audit the Premium/Pro onboarding flow. High price is not translating into retention, which suggests a value-realization gap early in the customer journey.
+Build a high-LTV retention program. Proactively monitor spending customers and revenue-concentrated markets (Mexico, Spain) rather than applying a one‑size‑fits‑all retention strategy.
+Segment retention efforts by channel and plan not the user base, as a whole. Churn drivers clearly differ by acquisition source and pricing tier so a targeted fix will outperform an one.
